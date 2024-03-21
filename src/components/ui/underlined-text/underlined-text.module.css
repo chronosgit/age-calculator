@@ -1,0 +1,16 @@
+.text {
+    position: relative;
+}
+
+.line {
+    width: 0;
+    height: 2px;
+
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.text:hover .line {
+    width: 100%;
+}

@@ -1,0 +1,18 @@
+.page {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.heading {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--clr-purple);
+}
+
+.message {
+    margin-bottom: 1rem;
+}
+
+.link {
+    font-weight: 700;
+}

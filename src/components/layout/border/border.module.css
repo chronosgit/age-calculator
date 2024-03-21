@@ -1,0 +1,41 @@
+.border {
+    width: 100%;
+    padding-inline-end: 3rem;
+    min-height: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.border_line {
+    flex: 4;
+    height: 1px;
+    background-color: var(--clr-gray-dark);
+}
+
+.border_circle {
+    --size: 5rem;
+    width: var(--size);
+    height: var(--size);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--clr-purple);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.border_circle_img {
+    height: 3.5rem;
+}
+
+@media screen and (max-width: 32rem) {
+    .border_circle {
+        --size: 4rem;
+    }
+
+    .border_circle_img {
+        height: 3rem;
+    }
+}

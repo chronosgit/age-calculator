@@ -1,0 +1,23 @@
+.page {
+    height: 100vh;
+    max-height: 100vh;
+    overflow-y: hidden;
+
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    min-width: 5rem;
+    width: 100%;
+    max-width: 45rem;
+    overflow-x: hidden;
+    padding: 2rem;
+
+    background-color: white;
+    border-radius: 1rem;
+    border-bottom-right-radius: 10rem;
+}

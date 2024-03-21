@@ -1,0 +1,41 @@
+@import url("./fonts.css");
+
+html {
+	font-family: "Poppins", Arial, Helvetica, sans-serif;
+	overflow-x: hidden;
+}
+
+:root {
+	--clr-gray-dark: #898989;
+	--clr-gray-light: #eeeeee;
+	--clr-white: white;
+	--clr-purple: #864cff;
+}
+
+body {
+	margin: 0;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+button {
+	background: none;
+	outline: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}

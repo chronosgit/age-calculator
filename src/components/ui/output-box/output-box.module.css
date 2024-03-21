@@ -1,0 +1,30 @@
+.output_box {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.output_value,
+.output_label {
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.output_value {
+    color: var(--clr-purple);
+}
+
+@media screen and (max-width: 32rem) {
+    .output_value,
+    .output_label {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 25rem) {
+    .output_value,
+    .output_label {
+        font-size: 2rem;
+    }
+}
